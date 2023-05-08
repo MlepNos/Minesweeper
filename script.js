@@ -16,10 +16,6 @@ let flaggedCount = 0
 
 /////////////////////////////////////////////////////////////////////////////
 
-
-
-
-
 function createTextNode(line) {
   return document.createTextNode(line);
 }
@@ -93,6 +89,9 @@ function createContainer() {
   });
   
 }
+
+
+
 
 
 function Buildfooter() {
@@ -340,12 +339,23 @@ function playSound(url) {
 }
 
 
+
+
+
+
 function main() {
   createContainer()
   //buildHeader()
   createButtons(boardDifficulties) 
   createBoard(9, 10)
+  
   Buildfooter() 
 }
 
 main()
+
+const minesweeper = {
+
+
+  
+}
